@@ -1,0 +1,5 @@
+{
+ "version": "0.20.1",
+ "sha256": "5591d2d9ec36c8f5023a6946999cdd75adcbd26d816cce74b48deb63aa943529",
+ "notes": "## Novidades da 0.20.1\n- Segurança: links que vêm de avisos, cifras e páginas só abrem se forem da web (https/http), e-mail ou WhatsApp; file:, pasta de rede e outros esquemas são recusados.\n- Segurança: as regras do Firestore passaram a recusar avisos com link que não seja da web ou com campos desconhecidos (é preciso publicar o app da equipe de novo).\n- Segurança: câmera, microfone e captura de tela só para o próprio app; a janela de vídeo da cifra roda isolada.\n- Segurança: a senha da equipe e o token do Holyrics ficam cifrados no arquivo de dados e não vão no \"Exportar backup\".\n- Segurança: ids de cifra vindos de arquivo ou backup são saneados.\n- Dados: gravação à prova de queda de energia, recuperação automática de arquivo danificado e cópia diária (5 últimas) na pasta copias.\n- App da equipe 0.8.1: links de avisos e sets só abrem se forem da web.\n- Atenção: depois de abrir a 0.20.1, voltar para a 0.20.0 pede a senha da equipe de novo."
+}

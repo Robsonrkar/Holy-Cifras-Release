@@ -1,0 +1,5 @@
+{
+ "version": "0.21.0",
+ "sha256": "b4c1761b1e1a84f092f767619b560dade550f70a87078c8ff311d35aace0c526",
+ "notes": "## Novidades da 0.21.0\n- Segurança: a equipe online só aceita e-mail confirmado. O administrador criado pelo Holy Cifras já nasce confirmado; quem criou o usuário à mão no console recebe o botão \"Enviar o e-mail de confirmação\", e o app não publica as regras novas antes disso (nada para de funcionar).\n- App da equipe 0.8.2: quem entra com e-mail e senha ainda não confirmados vê \"Confirme o seu e-mail\" e pode pedir o link.\n- Segurança: tudo o que o app baixa (yt-dlp, ferramenta do Firebase, ffmpeg, reconhecimento de voz e modelos de separação de faixas) tem versão fixa e é conferido pelo SHA-256 antes de ser usado; arquivo que não confere é apagado.\n- Segurança: abrir pasta, falar com o Holyrics, converter vídeo e baixar do YouTube conferem os dados recebidos (só pastas locais, Holyrics só na rede local, vídeo só para .mp4, só links do YouTube).\n- Manutenção: dependências travadas (package-lock no código-fonte), `npm audit` no portão e correção de um componente de instalação com problema de segurança (adm-zip)."
+}

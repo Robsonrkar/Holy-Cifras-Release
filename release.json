@@ -1,0 +1,5 @@
+{
+ "version": "0.20.0",
+ "sha256": "5bb87b4c0ec5607e2f2c0cca7b4f021c5d4f87f38d18c9879d816c1c84be7167",
+ "notes": "## Novidades da 0.20.0\n- Atualização automática pelo GitHub: ao abrir o programa ele avisa se há versão nova; Atualizar agora baixa, confere (SHA-256), fecha, troca o HolyCifras.exe e abre sozinho (o antigo fica como HolyCifras.exe.antigo)\n- Botão Verificar atualização (Ajuda e Pastas e integrações): sempre responde (versão nova, já está na mais recente ou o motivo do erro); dá para pular uma versão e desligar o aviso ao abrir\n- Janela Novidades da versão: aparece uma vez depois de cada atualização (e no botão Novidades desta versão)\n- Repositório das atualizações configurável (padrão Robsonrkar/Holy-Cifras-Release)\n- Correção: erro esporádico ao fechar o Estúdio de faixas com o som tocando\n\nPrimeira versão com atualização automática: quem usa uma versão anterior instala esta uma vez pelo zip."
+}

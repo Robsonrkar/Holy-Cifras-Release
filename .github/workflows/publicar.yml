@@ -1,0 +1,27 @@
+# Cria a release pública quando uma nova versão é enviada para a branch "staging" (HolyCifras.exe + release.json).
+# O Holy Cifras lê "releases/latest" deste repositório para avisar e baixar atualizações.
+name: Publicar release
+on:
+  push:
+    branches: [staging]
+permissions:
+  contents: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Conferir e publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          VER=$(jq -r .version release.json)
+          [[ "$VER" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || { echo "versão inválida: $VER"; exit 1; }
+          WANT=$(jq -r .sha256 release.json)
+          GOT=$(sha256sum HolyCifras.exe | cut -d' ' -f1)
+          [ "$WANT" = "$GOT" ] || { echo "SHA-256 não confere ($WANT x $GOT)"; exit 1; }
+          jq -r .notes release.json > notes.md
+          printf '\n\nSHA-256: %s\n' "$GOT" >> notes.md
+          if gh release view "v$VER" >/dev/null 2>&1; then gh release delete "v$VER" --yes --cleanup-tag; fi
+          gh release create "v$VER" HolyCifras.exe --title "Holy Cifras $VER" --notes-file notes.md --target "$GITHUB_SHA" --latest

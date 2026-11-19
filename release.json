@@ -1,0 +1,5 @@
+{
+ "version": "0.22.0",
+ "sha256": "b0a55cb3ba7ef073c03a7fd583282cc060badafadf2cf71eabcf18b29fd6447d",
+ "notes": "## Novidades da 0.22.0\n- Programa atualizado para o Electron 45 (versão com suporte e correções de segurança). Copiar e colar foram adaptados à versão nova.\n- Menu lateral: em telas mais baixas (ex.: notebook 1366×768) todos os itens aparecem; se ainda faltar espaço, o menu rola.\n- Equipe online: \"Publicar o app da equipe\" religa a entrada de membros novos quando ela estiver desligada no Firebase (o erro \"admin-restricted-operation\" no 1º login com o Google); \"Verificar tudo\" mostra esse item.\n- Equipe online: login com o Google no iPhone. Quando o endereço do app estiver autorizado no Google, o app da equipe passa a fazer o login no próprio endereço (some o erro \"missing initial state\" do Safari); \"Publicar\" e \"Verificar tudo\" mostram o passo único para autorizar.\n- App da equipe 0.8.3: mensagem clara quando o Firebase recusa o 1º login."
+}

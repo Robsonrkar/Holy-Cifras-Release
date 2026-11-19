@@ -1,0 +1,5 @@
+{
+ "version": "0.22.1",
+ "sha256": "a4dd72c3a9277ab70ede69a3dc96fe189fb6187027fec02dd28b95e1dfc6c40c",
+ "notes": "## Novidades da 0.22.1\n- Relatórios: o período (todo o histórico, este ano, 90 ou 30 dias) volta a trocar quantas vezes quiser; antes ficava preso depois da 1ª escolha.\n- Relatórios: \"contar sets sem data\" pode ser marcado em qualquer período.\n- Perguntas de confirmação (excluir cifra, set, dinâmica, áudio…) agora aparecem na janela do próprio programa; a caixa do Windows travava os campos de texto.\n- App da equipe 0.8.4: no Modo ensaio, quando o celular não abre o menu de compartilhar (comum com vídeo grande no Android), o vídeo é baixado sozinho e aparece o passo a passo para publicar pelo app do Facebook ou do YouTube; card novo \"Ao vivo pelo celular\" ensina a transmitir pelo app do Facebook.\n- Programa um pouco menor: leva só os idiomas usados (português e inglês).\n- Pacote do código-fonte sem os manuais de versões antigas."
+}

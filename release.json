@@ -1,0 +1,5 @@
+{
+ "version": "0.22.2",
+ "sha256": "267c946c98c29056819e072eb2a90254756c59c1cc1bfd4a51ca87ceeab16618",
+ "notes": "## Novidades da 0.22.2\n- Estudos: quando o microfone padrão do Windows não responde (por exemplo, um fone ou caixa Bluetooth desligado), o programa tenta sozinho os outros microfones; dá para escolher o microfone na lista \"Microfone\".\n- Estudos: o erro do microfone agora é explicado em português, com botões que abrem o Som e a Privacidade do microfone do Windows.\n- Analisador: captar pelo microfone também tenta os outros microfones quando o padrão não responde.\n- Arquivo de dados menor e mais rápido de salvar: as formas de onda dos áudios ficam numa pasta própria (a migração é automática).\n- App da equipe 0.8.5: escolha de microfone mais robusta nos Estudos."
+}

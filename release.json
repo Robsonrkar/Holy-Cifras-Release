@@ -1,0 +1,5 @@
+{
+ "version": "0.23.1",
+ "sha256": "4cbe3b1ecee4b72b8c51ab7f5f4a3fdd50e95e2bc22d7ceeec0777ed5bf7fb5a",
+ "notes": "## Novidades da 0.23.1\n- Usuários e acessos: corrigido o erro \"the stored version … does not match the required base version\" ao salvar quando outra pessoa (ou outro computador) mudou os acessos ao mesmo tempo. Agora o programa lê a versão nova, refaz por cima dela as mudanças que estavam na tela e avisa o que ficou com a versão de fora. Dois cliques seguidos em Salvar gravam uma vez só.\n- O texto do conflito do Firebase aparece em português, no lugar da mensagem técnica."
+}

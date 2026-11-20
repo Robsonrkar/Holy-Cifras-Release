@@ -1,0 +1,5 @@
+{
+ "version": "0.23.4",
+ "sha256": "87edeeebb4d90e0280b9a5d84a22be6618136e81741b35ba2081b8ffc9ba484c",
+ "notes": "## Novidades da 0.23.4\n- Manutenção interna: as telas do programa passam a ser montadas num arquivo só (preparação da segurança M-1), e o programa do Windows e o app da equipe passam a usar a mesma fonte para os arquivos que têm em comum. Nada muda no uso."
+}

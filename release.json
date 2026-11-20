@@ -1,0 +1,5 @@
+{
+ "version": "0.23.6",
+ "sha256": "5341b916cf7fabc57b23ff0bf50314f33df1950073c87eee563c777635dc42c3",
+ "notes": "## Novidades da 0.23.6\n- Manutenção interna: a janela **Link público** passa a falar com o processo principal só pelo caminho seguro (M-1), que agora confere cada pedido antes de ir ao Firebase. Nada muda no uso."
+}

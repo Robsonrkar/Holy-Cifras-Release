@@ -1,0 +1,5 @@
+{
+ "version": "0.23.2",
+ "sha256": "cfaf3a281d5dc662537413975f06be91da77ddaef244c1d655e7f656ed42a490",
+ "notes": "## Novidades da 0.23.2\n- **App da equipe 0.9.0:** o celular passa a seguir os perfis e as autorizações, como o Windows. A tela \"Equipe\" virou **\"Usuários\"**, com as abas Pessoas e Perfis, e liberar alguém pelo celular volta a dar acesso.\n- **Usuários e acessos:** a lista não acusa mais conflito à toa quando o Firebase devolve os dados em outra ordem.\n- **Relatórios:** \"Salvar tabela (CSV)\" passa a gravar pelo processo principal (segurança, M-1)."
+}

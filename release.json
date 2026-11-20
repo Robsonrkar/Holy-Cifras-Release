@@ -1,0 +1,5 @@
+{
+ "version": "0.23.3",
+ "sha256": "88d883ca44b7d22903e66affa3cd6214c09d619a9367d36c2403acd36d558ec1",
+ "notes": "## Novidades da 0.23.3\n- **Da equipe (novo):** quem entrou na equipe neste computador vê a biblioteca e os sets que a equipe publicou, só para leitura. Dá para abrir a cifra em qualquer tom, usar o set no Modo palco e copiar uma cifra para as suas. Uma cópia fica guardada para usar sem internet, e \"Sair\" apaga essa cópia.\n- **Biblioteca da equipe:** a janela de publicar passa a falar com o processo principal só pelo caminho seguro (M-1).\n- **Novidades:** o negrito aparece como negrito, sem os asteriscos."
+}

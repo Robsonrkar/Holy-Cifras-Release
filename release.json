@@ -1,0 +1,5 @@
+{
+ "version": "0.23.5",
+ "sha256": "6efae3b428dc64c063da5c719063169b08139ada68b960f5ce8fc7f575713788",
+ "notes": "## Novidades da 0.23.5\n- Manutenção interna: a tela **Estudos** passa a falar com o processo principal só pelo caminho seguro (M-1). Nada muda no uso."
+}

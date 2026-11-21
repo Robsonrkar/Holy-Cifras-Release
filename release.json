@@ -1,0 +1,5 @@
+{
+ "version": "0.23.10",
+ "sha256": "b82aeab3bc9231ed8fe94d6692dc1739606de7f8ac98fa2d00d22a0d4edd2410",
+ "notes": "## Novidades da 0.23.10\n- **Segurança (M-1):** a tela Áudios, o Estúdio de faixas e a leitura dos áudios pela Dinâmica não mexem mais direto nos arquivos do computador.\n  - Copiar, baixar do YouTube, converter, gravar o mp3 em outro tom ou a mistura das faixas e apagar passam pelo programa principal, que confere cada pedido.\n  - O programa só grava no lugar escolhido na janela de salvar e só apaga o áudio e a pasta das faixas dele.\n- Nada muda no uso: são as mesmas telas e os mesmos botões."
+}

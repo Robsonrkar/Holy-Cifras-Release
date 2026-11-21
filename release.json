@@ -1,0 +1,5 @@
+{
+ "version": "0.23.8",
+ "sha256": "4e7d5bd60dd33efed6da2de099e875fb0533cefb3d3c0a032bc91c93545f8129",
+ "notes": "## Novidades da 0.23.8\n- **Áudios › Baixar do YouTube:** com \"Usar minha conta do navegador\" marcado, o download não falha mais por causa do Chrome aberto. O programa tenta primeiro sem a conta e só usa a conta do navegador quando o vídeo pede (privado ou só para membros). Se o Chrome não deixar ler a conta, o aviso indica o Firefox ou um arquivo cookies.txt.\n- Manutenção interna: Ajuda, avisos, atualização do programa, Analisador e Equipe passam a falar com o processo principal só pelo caminho seguro (M-1). A atualização agora só baixa e instala a versão que o próprio programa verificou. Nada muda no uso."
+}

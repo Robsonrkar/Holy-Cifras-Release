@@ -1,0 +1,5 @@
+{
+ "version": "0.23.9",
+ "sha256": "5cda42aa55f778bc88d973dc7759f984b461dcdb8f93826a30530bafdb26cf9e",
+ "notes": "## Novidades da 0.23.9\n- **Analisador › Montar a cifra completa:** a letra cantada sai muito mais precisa.\n  - Há o modelo novo \"**Máxima precisão (turbo)**\", que passa a ser o padrão.\n  - A voz é realçada antes de reconhecer, e o programa conhece o vocabulário do louvor.\n  - Os trechos só de música não viram mais letra inventada.\n  - Cada frase cantada vira uma linha.\n  - Se você escolher a cifra da música na biblioteca, a letra é conferida com ela, linha por linha. Se o áudio tiver as faixas separadas (Áudios › 🎚), o programa ouve só a voz.\n- **A cifra montada sai em blocos, com as cores do projeto** (cada parte da música com a sua cor), sem repetir o mesmo acorde em toda linha e sem os acordes curtos de ruído."
+}

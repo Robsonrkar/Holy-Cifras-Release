@@ -1,0 +1,5 @@
+{
+ "version": "0.23.7",
+ "sha256": "fa85798df60c387b41564451ffb2f7e407ff3cbf58a07d75d8a5e6cfcd09c1d6",
+ "notes": "## Novidades da 0.23.7\n- Manutenção interna: a tela **Pastas e integrações** passa a falar com o processo principal só pelo caminho seguro (M-1). Quem procura o Google Drive agora é o processo principal. Nada muda no uso."
+}

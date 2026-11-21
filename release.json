@@ -1,0 +1,5 @@
+{
+ "version": "0.23.11",
+ "sha256": "f7c0c6f89cb954f4d07ec13f9234e03985b60464cd9819eb75db91e17ecd847f",
+ "notes": "## Novidades da 0.23.11\n- **Segurança (M-1):** a tela Ensaios e avisos não fala mais direto com a internet nem mexe direto nos arquivos do computador.\n  - Os avisos, o \"ensaiando agora\" e a gravação passam pelo programa principal, que confere cada pedido.\n  - A chave de transmissão ao vivo só é aberta na hora de transmitir.\n  - O vídeo e o MP3 do ensaio só são gravados no lugar que você escolher.\n- Nada muda no uso."
+}

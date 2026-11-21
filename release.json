@@ -1,0 +1,5 @@
+{
+ "version": "0.23.12",
+ "sha256": "8d3985cb06afe9006ba0b8d44589a5cf45ce82e3a7d1a8c1f2300ac4d98b3b06",
+ "notes": "## Novidades da 0.23.12\n- **Segurança (M-1):** a tela Dinâmica do louvor não mexe mais direto nos arquivos do computador.\n  - Exportar o mp3 e o vídeo MP4, conferir os áudios e o diagnóstico passam pelo programa principal.\n  - O programa grava só no lugar escolhido na janela de salvar.\n- Nada muda no uso."
+}

@@ -1,0 +1,5 @@
+{
+ "version": "0.27.0",
+ "sha256": "e209e87124138e37da6ce3e0f2c201579b91322b37fddcd325d2ebca0ad76609",
+ "notes": "## Novidades da 0.27.0\n- **Mais segurança por dentro:** a janela principal agora roda em \"sandbox\", a proteção mais forte do Electron. Nem a\n  parte que liga a janela ao programa tem acesso ao computador; tudo passa pelo processo principal, que confere cada\n  pedido. Nada muda no uso.\n- **Testes num Windows limpo:** a cada versão, o GitHub abre o HolyCifras.exe num Windows novo e testa a atualização\n  pelo botão (baixar, conferir e trocar o arquivo), além de rodar os testes automáticos.\n- **Roteiro de teste real:** os testes que só um computador, um celular ou um serviço de verdade provam ficaram\n  numa lista única, numerada (docs/TESTE-REAL.md no código do programa)."
+}

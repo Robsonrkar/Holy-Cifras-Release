@@ -1,0 +1,5 @@
+{
+ "version": "0.30.0",
+ "sha256": "d563b2ab815519dee1134cafb95a28417c5620502f46a4c6cb21f2713bb65a88",
+ "notes": "## Novidades da 0.30.0\n- **Por dentro, a Dinâmica do louvor em partes:** o arquivo da Dinâmica foi dividido em nove partes, cada uma no seu arquivo: histórico, som, linha do tempo, cortes, painel do bloco, textos e imagens, acordes, diagnóstico e exportar. O arquivo principal da Dinâmica foi de 2.042 para 491 linhas. Nada muda no uso: o código foi movido como estava, e os mesmos testes de antes passam sem mudança.\n- **Testes novos de guarda:** conferem que uma parte não chama outra direto, que todo nome que uma parte pede existe e que o arquivo principal da Dinâmica não volta a crescer."
+}

@@ -1,0 +1,5 @@
+{
+ "version": "0.29.0",
+ "sha256": "0648a18bc48eb379cd3e59037968901e91d3ffda55d01b970221b745fa055db1",
+ "notes": "## Novidades da 0.29.0\n- **Por dentro, telas em arquivos próprios:** a Biblioteca, o Editor de cifra, o Set do culto (e o que sai dele: equipe, Word/PDF, WhatsApp, imagem e impressão) e o Modo palco saíram do arquivo principal da janela, cada um para o seu arquivo. O arquivo principal foi de 2.046 para 589 linhas. Nada muda no uso: o código foi movido como estava, e os mesmos testes de antes passam sem mudança.\n- **Testes novos de guarda:** conferem que os nomes que os testes usam continuam na janela, que uma tela não chama outra direto e que o arquivo principal não volta a crescer."
+}

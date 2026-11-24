@@ -1,0 +1,5 @@
+{
+ "version": "0.28.0",
+ "sha256": "e3f8b2f306569faed56491f45f1947c4dfe114f3b351aa853202a4ba4234a62d",
+ "notes": "## Novidades da 0.28.0\n- **Arquivo de dados com versão:** o holycifras.json agora diz em que formato está. Ao abrir a 0.28.0 pela primeira vez, o programa guarda uma cópia do arquivo como estava (pasta copias, \"antes-esquema-1-…\") e grava no formato novo. As correções de arquivos de versões antigas (ids, formações, Dinâmicas de fila única) agora ficam num lugar só, com testes. Nada muda no uso.\n- **Voltar de versão continua seguro:** a versão anterior abre o arquivo novo sem perder nada. Se um arquivo vier de uma versão MAIS NOVA do programa, ele não é mexido, e o programa avisa para atualizar.\n- **Backup de qualquer época:** \"Importar backup\" também passa pela mesma correção."
+}

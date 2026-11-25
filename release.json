@@ -1,0 +1,5 @@
+{
+ "version": "0.35.0",
+ "sha256": "ced392640a36b4fd5c24570d079c3eefe171db341de064a0bc606a5d4002b903",
+ "notes": "## Novidades da 0.35.0\n- **Por dentro, o Estudo da música em partes:** o arquivo da tela 🎼 Estudo da música foi dividido em sete partes, cada uma no seu arquivo: preparar o estudo, o estudo pronto, a cifra no tempo, os painéis dos instrumentos, a prática, as correções e o som (o relógio único). O arquivo principal foi de 1.453 para 183 linhas. Nada muda no uso: o código foi movido como estava, e os mesmos testes de antes passam sem mudança.\n- **Testes de guarda:** as regras das telas em partes agora valem também para o Estudo da música."
+}

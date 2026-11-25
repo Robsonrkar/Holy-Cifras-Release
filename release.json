@@ -1,0 +1,5 @@
+{
+ "version": "0.32.0",
+ "sha256": "8a8ded4f82d5d53780caf12f05e7d62bb71d04271f0db67e82acab0af7b161da",
+ "notes": "## Novidades da 0.32.0\n- **Equipes em mais de um PC:** com dois administradores, cada um no seu computador, um não via as equipes (formações) criadas pelo outro, porque o \"Trazer\" só trazia as equipes quando o PC ainda não tinha nenhuma. Agora o **↧ Trazer da equipe online** (no alto da tela Equipes e escala) traz sempre as equipes que faltam neste PC, e o \"Adicionar uma equipe inteira…\" do Set mostra todas.\n- **Salvar sem apagar o que é do outro:** o **☁ Salvar na equipe online** antes trocava a lista da nuvem pela do PC, e as equipes criadas em outro computador sumiam para todos. Agora ele traz primeiro o que só está na nuvem e só depois grava. Uma equipe removida de propósito sai também da nuvem.\n- **Prioridade das equipes do administrador master:** no PC de outro administrador, o Trazer deixa as equipes do master como o master as deixou. Se outro administrador for apagar ou mudar uma delas, o Salvar mostra o que vai apagar ou mudar e só grava no segundo clique."
+}

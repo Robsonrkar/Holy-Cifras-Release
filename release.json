@@ -1,0 +1,5 @@
+{
+ "version": "0.33.0",
+ "sha256": "9ab8a0791fb35f40062d7424f351ec1d40b8c4185e81f0cc46cba17c84d808a4",
+ "notes": "## Novidades da 0.33.0\n- **Por dentro, a aba Estudos em partes:** o arquivo dos Estudos foi dividido em sete partes, cada uma no seu arquivo: desenhos (violão e teclado), campo harmônico, treinar e aprender, minha voz, tom ideal, divisão de vozes e botões. O arquivo principal dos Estudos foi de 1.153 para 214 linhas. Nada muda no uso, no Windows nem no app da equipe: o código foi movido como estava, e os mesmos testes de antes passam sem mudança.\n- **Testes de guarda:** as regras das telas em partes agora valem também para os Estudos, e conferem que cada parte vai para o app da equipe."
+}

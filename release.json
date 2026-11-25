@@ -1,0 +1,5 @@
+{
+ "version": "0.34.0",
+ "sha256": "ddfbcb40f0a3a89124b0a8faabbbab075f39e1a5966e47d6043119db6cb7e577",
+ "notes": "## Novidades da 0.34.0\n- **Por dentro, o assistente Equipe online em partes:** o arquivo do assistente foi dividido em cinco partes, cada uma no seu arquivo: as regras e a configuração do Firebase, a lista da equipe, o diagnóstico (\"Verificar tudo\"), a ferramenta do Firebase e a publicação do app da equipe. O arquivo principal foi de 1.104 para 72 linhas. Nada muda no uso: o código foi movido como estava, e as funções são as mesmas de antes.\n- **Testes de guarda:** regra nova para módulos em partes (sem ciclo, ninguém pede uma parte direto, os mesmos nomes de antes), e as partes entram nas regras de segurança, nos downloads de versão fixa e na cobertura."
+}

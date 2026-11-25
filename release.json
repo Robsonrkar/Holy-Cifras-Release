@@ -1,0 +1,5 @@
+{
+ "version": "0.31.0",
+ "sha256": "0dc6de9c8b148719704dc10ca521917cd4c623aeb3bb3fc57271a439d28dc0a3",
+ "notes": "## Novidades da 0.31.0\n- **Por dentro, a tela Ensaios e avisos em partes:** o arquivo dos Ensaios foi dividido em sete partes, cada uma no seu arquivo: quem recebe, transmissão ao vivo, câmera e gravação, salvar, avisos, destinos e botões. O arquivo principal dos Ensaios foi de 1.331 para 377 linhas. Nada muda no uso: o código foi movido como estava, e os mesmos testes de antes passam sem mudança.\n- **Testes de guarda:** as regras da Dinâmica em partes (uma parte não chama outra direto, todo nome que uma parte pede existe, o arquivo principal não volta a crescer) agora valem também para os Ensaios."
+}
